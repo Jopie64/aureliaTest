@@ -32,3 +32,9 @@ export class UpperValueConverter {
     return value && value.toUpperCase();
   }
 }
+
+export class LowerValueConverter {
+  toView(value: string): string {
+    return value && value.toLowerCase();
+  }
+}
