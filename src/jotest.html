@@ -1,0 +1,11 @@
+<template>
+  <h1>${message}</h1>
+  <button click.delegate="addReply()">Add new</button>
+  <button click.delegate="replies.splice(0)">Clear</button>
+  <button click.delegate="keepAdding()">Keep Adding</button>
+  <button click.delegate="stopAdding()">Stop Adding</button>
+  <ul>
+    <li repeat.for="reply of replies">${reply}</li>
+  </ul>
+  <h2 repeat.for="reply of replies">${reply}</h2>
+</template>

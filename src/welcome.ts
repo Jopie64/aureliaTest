@@ -2,7 +2,7 @@
 
 export class Welcome {
   heading: string = 'Welcome to the Aurelia Navigation App';
-  firstName: string = 'John';
+  firstName: string = 'Johnny';
   lastName: string = 'Doe';
   previousValue: string = this.fullName;
 
